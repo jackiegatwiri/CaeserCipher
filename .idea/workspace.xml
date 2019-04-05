@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8909de6e-ce89-4469-8106-618c9eadb9a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Encrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DecryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EncryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeapYear/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle/Vehicle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/dist/Goals/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/dist/Goals/es2015-polyfills.1e04665e16f944715fd2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/dist/Goals/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/dist/Goals/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/dist/Goals/main.fda4516d4851c2de1125.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/dist/Goals/polyfills.8bbb231b43165d65d357.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/dist/Goals/runtime.26209474bfa8dc87a77c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/dist/Goals/styles.3240aa03299bea7805ab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/achieve.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/achieve.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/achieve/achieve.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/achieve/achieve.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/achieve/achieve.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/achieve/achieve.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/date-count.pipe.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/date-count.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal-details/goal-details.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal-details/goal-details.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal-details/goal-details.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal-details/goal-details.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal-form/goal-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal-form/goal-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal-form/goal-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal-form/goal-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal/goal.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal/goal.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal/goal.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/goal/goal.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/strikethrough.directive.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/app/strikethrough.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Goals/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/qoutes-details/qoutes-details.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/qoutes-details/qoutes-details.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/qoutes-details/qoutes-details.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/qoutes-details/qoutes-details.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/quotes.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/quotes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/quotes/quotes.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/quotes/quotes.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/quotes/quotes.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/app/quotes/quotes.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/js/scripts.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Encrypt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Decrypt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EncryptTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DecryptTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="833" />
+    <option name="y" value="25" />
+    <option name="width" value="767" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CeaserCipher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CeaserCipher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CeaserCipher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CeaserCipher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CeaserCipher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CeaserCipher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CeaserCipher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CeaserCipher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CeaserCipher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CeaserCipher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CeaserCipher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CeaserCipher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="Decrypt" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="Decrypt" />
+      <recent name="Encrypt" />
+      <recent name="App" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8909de6e-ce89-4469-8106-618c9eadb9a1" name="Default Changelist" comment="" />
+      <created>1554473497268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554473497268</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949563" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.3297587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Encrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Decrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
