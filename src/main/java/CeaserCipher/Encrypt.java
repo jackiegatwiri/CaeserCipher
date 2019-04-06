@@ -7,14 +7,14 @@ public class Encrypt {
 
         for (int i = 0; i < story.length(); i++) {
             if (Character.isUpperCase(story.charAt(i))) {
-                char lowerCase = (char) (((int) story.charAt(i) + key - 65) % 26 + 65);
-//                result.append(ch);
-//            } else {
-//                char ch = (char) (((int) text.charAt(i) +
-//                        shift - 97) % 26 + 97);
-//                result.append(ch);
-//            }
-//        }
-//        return result;
-//    }
+                char letter = (char) (((int) story.charAt(i) + key - 65) % 26 + 65);
+                decipher.append(letter);
+            } else {
+                char letter = (char) (((int) story.charAt(i) +
+                        key - 97) % 26 + 97);
+                decipher.append(letter);
+            }
+        }
+        return decipher;
+    }
 }
