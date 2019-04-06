@@ -3,22 +3,27 @@ package CeaserCipher;
 public class Encrypt {
     public static StringBuilder encrypt(String story, int key) {
         StringBuilder decipher = new StringBuilder();
-        if (key>26){
-            key = key%26;
+        if (key > 26) {
+            key = key % 26;
+        } else if (key < 0) {
+            key = (key % 26) + 26;
         }
-        else if(key<0){
-            key =  (key%26)+26;
-        }
-
-        for (int i = 0; i < story.length(); i++) {
-            if (Character.isUpperCase(story.charAt(i))) {
-                char letter = (char) (((int) story.charAt(i) + key - 65) % 26 + 65);
+        int length = story.length();
+        for (int index = 0; index < length; index++) {
+            char letter = story.charAt(index);
+            if (Character.isLetter(letter)){
+            if (Character.isUpperCase(letter)) {
+                letter = (char)(((int) letter + key - 65) % 26 + 65); //casting done here
                 decipher.append(letter);
-            } else {
-                char letter = (char) (((int) story.charAt(i) +
-                        key - 97) % 26 + 97);
+            } else if (Character.isLowerCase(letter)){
+                letter = (char) (((int) letter + key - 97) % 26 + 97); //casting done here
                 decipher.append(letter);
             }
+        }
+            else{
+                decipher.append(letter);
+            }
+
         }
         return decipher;
     }

@@ -1,6 +1,7 @@
 package CeaserCipher;
 import java.util.Scanner;
 
+import static CeaserCipher.Decrypt.decrypt;
 import static CeaserCipher.Encrypt.encrypt;
 
 
@@ -12,8 +13,12 @@ public class App {
         story = myScanner.nextLine();
         System.out.println("please enter your shift");
         int key = myScanner.nextInt();
-
-        System.out.println(encrypt(story, key));
+        StringBuilder cipher = (encrypt(story, key));
+        System.out.println("Here is your ciphered story");
+        System.out.println(cipher);
+        StringBuilder decipher = (decrypt(cipher.toString(), key));
+        System.out.println("Here is your deciphered story");
+        System.out.println(decipher);
     }
 
 }
