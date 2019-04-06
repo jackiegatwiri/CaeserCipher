@@ -7,7 +7,7 @@ public class Encrypt {
 
         for (int i = 0; i < story.length(); i++) {
             if (Character.isUpperCase(story.charAt(i))) {
-//                char ch = (char) (((int) text.charAt(i) +
+                char lowerCase = (char) (((int) story.charAt(i) +
 //                        shift - 65) % 26 + 65);
 //                result.append(ch);
 //            } else {
