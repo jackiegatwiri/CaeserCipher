@@ -1,6 +1,8 @@
 package CeaserCipher;
 import java.util.Scanner;
 
+import static CeaserCipher.Encrypt.encrypt;
+
 
 public class App {
     public static void main(String[] args) {
@@ -10,8 +12,8 @@ public class App {
         story = myScanner.nextLine();
         System.out.println("please enter your shift");
         int key = myScanner.nextInt();
-//
-//        System.out.println(encrypt(text, shift));
+
+        System.out.println(encrypt(story, key));
     }
 
 }
