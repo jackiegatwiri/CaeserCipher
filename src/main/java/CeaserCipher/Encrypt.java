@@ -1,4 +1,4 @@
-//package CeaserCipher;
+package CeaserCipher;
 
 public class Encrypt {
     public static StringBuilder encrypt(String story, int key) {
