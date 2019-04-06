@@ -5,7 +5,7 @@ public class Encrypt {
 
         StringBuilder decipher = new StringBuilder();
 
-//        for (int i = 0; i < text.length(); i++) {
+        for (int i = 0; i < story.length(); i++) {
 //            if (Character.isUpperCase(text.charAt(i))) {
 //                char ch = (char) (((int) text.charAt(i) +
 //                        shift - 65) % 26 + 65);
