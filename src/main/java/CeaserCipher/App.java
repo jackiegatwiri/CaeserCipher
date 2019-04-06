@@ -6,8 +6,8 @@ public class App {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("please enter your story");
-        String text;
-//        text = myScanner.nextLine();
+        String story;
+        story = myScanner.nextLine();
 //        System.out.println("please enter your shift");
 //        int shift = myScanner.nextInt();
 //
