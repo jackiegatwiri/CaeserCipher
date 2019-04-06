@@ -10,18 +10,28 @@ public class Encrypt {
         }
         int length = story.length();
         for (int index = 0; index < length; index++) {
-            char letter = story.charAt(index);
-            if (Character.isLetter(letter)){
-            if (Character.isUpperCase(letter)) {
-                letter = (char)(((int) letter + key - 65) % 26 + 65); //casting done here
-                decipher.append(letter);
-            } else if (Character.isLowerCase(letter)){
-                letter = (char) (((int) letter + key - 97) % 26 + 97); //casting done here
-                decipher.append(letter);
+            char singleChar = story.charAt(index);
+            if (Character.isLetter(singleChar)){
+                if (Character.isUpperCase(singleChar)) {
+                    char newSingleChar = (char)(( singleChar + key - 65) % 26 + 65); //casting done here
+                    decipher.append(newSingleChar);
+                    if(singleChar>'Z'){
+                        decipher.append((char)(newSingleChar-(26-key)));
+                    }
+
+
+                } else if (Character.isLowerCase(singleChar)){
+                    char newSingleChar  = (char) (( singleChar + key - 97) % 26 + 97); //casting done here
+                    decipher.append(newSingleChar);
+
+                    if(singleChar>'z'){
+                        decipher.append((char)(newSingleChar-(26-key))); //char used for casting here
+                    }
+
+                }
             }
-        }
             else{
-                decipher.append(letter);
+                decipher.append(singleChar);
             }
 
         }
