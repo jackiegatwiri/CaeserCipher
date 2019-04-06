@@ -8,8 +8,8 @@ public class App {
         System.out.println("please enter your story");
         String story;
         story = myScanner.nextLine();
-//        System.out.println("please enter your shift");
-//        int shift = myScanner.nextInt();
+        System.out.println("please enter your shift");
+        int key = myScanner.nextInt();
 //
 //        System.out.println(encrypt(text, shift));
     }
