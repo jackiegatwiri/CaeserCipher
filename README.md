@@ -22,6 +22,7 @@ The applications allow users to do the following:
 1.Enter their message and private key
 2.See the encrypted message
 3.Decrypt the message
+```
 
 ## Project setup
 ```bash
@@ -37,7 +38,7 @@ JDK
 Junit
 Java
 SDK
-
+```
 
 ## Contact Details
 ```bash
