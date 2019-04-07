@@ -1,6 +1,6 @@
 # Project Name
 
-Github
+Caeser Cipher
 
 ## Author's name
 
@@ -12,68 +12,33 @@ Jackline Gatwiri
 ## Description
 
 ```bash
-This is a simple Angular 5 application that allows you to search through Github to find users and repositories.
+This application allows USERS to input their stories and a private key that encrypts their meassage. A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.  For example, with a shift of 1, A would be replaced by B, B would become C, and so on. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A).
 ```
 
 ## User Requirements
 ```bash
 The applications allow users to do the following:
 
-1.Enter GitHub username
-2.See names and descriprions.
-3.Look for repositories
+1.Enter their message and private key
+2.See the encrypted message
+3.Decrypt the message
 
 ## Project setup
 ```bash
-1.Make sure you have all the Requirements or running angular apps installed such as node,npm, tsc and watchman.
+1.Make sure you have all the Requirements of running Java apps installed such as JUnit, intellij, SDK, JDK.
 
-2.Clone the project into your machine from https://github.com/jackiegatwiri/Quotes-App.git.
+2.Clone the project into your machine from https://github.com/jackiegatwiri/CeaserCipher.git.
 
-3.Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+3.Run javac ceasercipher.java to compile and java ceasercipher to run the program
 ```
 ## Technology Used
 ```bash
-Angular 
-HTML
-CSS
-```
+JDK 
+Junit
+Java
+SDK
 
-## QuotesApp
-```bash
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
-```
-
-## Development server
-```bash
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-```
-
-## Code scaffolding
-```bash
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-```
-
-## Build
-```bash
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-```
-
-## Running unit tests
-```bash
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-```
-
-## Running end-to-end tests
-```bash
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-```
-## Further help
-```bash
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-```
 ## Contact Details
 ```bash
 You can contact me at jaciegatz@gmail.com
