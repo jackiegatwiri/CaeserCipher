@@ -1,40 +1,38 @@
 package CeaserCipher;
 
 public class Decrypt {
-    public static StringBuilder decrypt(String cipher, int key) {
-        StringBuilder decipher = new StringBuilder();
-        if (key > 26) {
-            key = key % 26;
-        } else if (key < 0) {
-            key = (key % 26) + 26;
-        }
-        int length = cipher.length();
-        for (int index = 0; index < length; index++) {
-            char singleChar = cipher.charAt(index);
-            if (Character.isLetter(singleChar)){
-                if (Character.isUpperCase(singleChar)) {
-                    char newSingleChar = (char)(( singleChar - key - 65) % 26 + 65); //casting done here
-                    decipher.append(newSingleChar);
-                    if(newSingleChar<'A'){
-                        decipher.append((char)(singleChar+(26-key)));
+    public static String decrypt(String cipher, int key) {
+        String decipher = "";
+        String errorMessage = "";
+        if (key < 1 || key > 25){
+            errorMessage = "Key must be between 1 and 25";
+        } else {
+            int length = cipher.length();
+            for (int index = 0; index < length; index++) {
+                char singleChar = cipher.charAt(index);
+                if (Character.isLetter(singleChar)){
+                    if (Character.isUpperCase(singleChar)) {
+                        char newSingleChar = (char)(singleChar - key); //casting done here
+                        if(newSingleChar<'A'){
+                            decipher += (char)(singleChar+(26-key));
+                        } else {
+                            decipher += newSingleChar;
+                        }
+                    } else if (Character.isLowerCase(singleChar)){
+                        char newSingleChar  = (char) ( singleChar - key); //casting done here
+                        if(newSingleChar<'a'){
+                            decipher += (char)(singleChar+(26-key)); //char used for casting here
+                        } else {
+                            decipher += newSingleChar;
+                        }
                     }
-
-
-                } else if (Character.isLowerCase(singleChar)){
-                    char newSingleChar  = (char) (( singleChar - key - 97) % 26 + 97); //casting done here
-                    decipher.append(newSingleChar);
-
-                     if(newSingleChar<'a'){
-                        decipher.append((char)(singleChar+(26-key))); //char used for casting here
-                    }
-
+                }
+                else{
+                    decipher += singleChar;
                 }
             }
-            else{
-                decipher.append(singleChar);
-            }
-
+            return decipher;
         }
-        return decipher;
+        return errorMessage;
     }
 }

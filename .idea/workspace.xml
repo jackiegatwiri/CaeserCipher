@@ -108,6 +108,16 @@
       <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/src/tslint.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Angular/Quotes/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CeaserCipher/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CeaserCipher/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CeaserCipher/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CeaserCipher/Decrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CeaserCipher/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CeaserCipher/Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DecryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DecryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EncryptTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Moringa-school-projects/Pig-Dice/index.html" afterDir="false" />
@@ -157,11 +167,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CeaserCipher/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="358">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,8 +191,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CeaserCipher/Encrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="224">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -190,8 +200,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CeaserCipher/Decrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="18" column="16" selection-end-line="40" />
+            <state relative-caret-position="255">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -199,8 +209,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="433">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,20 +227,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,8 +244,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -249,20 +256,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DecryptTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Encrypt.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/EncryptTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CeaserCipher/Decrypt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CeaserCipher/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CeaserCipher/Encrypt.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/CeaserCipher/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CeaserCipher/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CeaserCipher/Decrypt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CeaserCipher/Encrypt.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EncryptTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DecryptTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="5">
-    <option name="x" value="833" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="767" />
     <option name="height" value="875" />
@@ -273,6 +281,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,15 +333,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="Decrypt" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="App" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cipher" />
     <property name="project.structure.last.edited" value="Project" />
@@ -341,12 +349,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="CeaserCipher" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="App" />
       <recent name="Decrypt" />
       <recent name="Encrypt" />
-      <recent name="App" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -421,10 +430,31 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="EncryptTest.encrypt_testKeyLoop_StringBuilder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;EncryptTest.encrypt_testKeyLoop_StringBuilder&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CeaserCipher [dependencies]" />
         <item itemvalue="Gradle.EncryptTest" />
+        <item itemvalue="Gradle.EncryptTest.encrypt_testKeyLoop_StringBuilder" />
+        <item itemvalue="Gradle.CeaserCipher [dependencies]" />
         <item itemvalue="Application.Encrypt" />
         <item itemvalue="Application.App" />
       </list>
@@ -453,11 +483,30 @@
     <history-entry file="EncryptTest - 2019.04.07 at 13h 53m 46s.xml">
       <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="EncryptTest_encrypt_testKeyLoop_StringBuilder - 2019.04.08 at 11h 04m 52s.xml">
+      <configuration name="EncryptTest.encrypt_testKeyLoop_StringBuilder" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest_encrypt_testKeyLoop_StringBuilder - 2019.04.08 at 11h 07m 09s.xml">
+      <configuration name="EncryptTest.encrypt_testKeyLoop_StringBuilder" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest_encrypt_testKeyLoop_StringBuilder - 2019.04.08 at 11h 07m 47s.xml">
+      <configuration name="EncryptTest.encrypt_testKeyLoop_StringBuilder" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest_encrypt_testKeyLoop_StringBuilder - 2019.04.08 at 11h 09m 04s.xml">
+      <configuration name="EncryptTest.encrypt_testKeyLoop_StringBuilder" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest_encrypt_testKeyLoop_StringBuilder - 2019.04.08 at 11h 09m 25s.xml">
+      <configuration name="EncryptTest.encrypt_testKeyLoop_StringBuilder" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="EncryptTest - 2019.04.08 at 11h 38m 08s.xml">
+      <configuration name="EncryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="833" y="25" width="767" height="875" extended-state="5" />
+    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.6255201" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.62542033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -493,20 +542,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Decrypt.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Encrypt.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -514,19 +549,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CeaserCipher/Decrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="18" column="16" selection-end-line="40" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -535,17 +566,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CeaserCipher/Encrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CeaserCipher/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CeaserCipher/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="358">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CeaserCipher/Encrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CeaserCipher/Decrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EncryptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
