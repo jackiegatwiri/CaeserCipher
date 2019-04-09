@@ -14,10 +14,6 @@ public class App {
         story = myScanner.nextLine();
         System.out.println("please enter your shift");
         int key = myScanner.nextInt();
-
-
-
-
         String cipher = (encrypt(story, key));
         System.out.println("Here is your ciphered story");
         System.out.println(cipher);

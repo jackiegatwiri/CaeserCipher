@@ -2,6 +2,8 @@ package CeaserCipher;
 
 public class Encrypt {
     public static String encrypt(String story, int key) {
+//        EncryptModel model = new EncryptModel();
+
         String decipher = "";
         String errorMessage = " ";
         if (key < 1 || key > 25){
@@ -35,6 +37,9 @@ public class Encrypt {
         }
         return errorMessage;
         }
+//    public String encrypt() {
+//        return encrypt();
+//    }
     }
 
 
